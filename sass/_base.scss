@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  //1REM === 10PX
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+}
